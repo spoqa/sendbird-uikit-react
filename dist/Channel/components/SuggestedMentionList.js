@@ -1,0 +1,56 @@
+import { _ as __assign } from '../../chunks/bundle-DzrKlXwY.js';
+import React__default from 'react';
+import { S as SuggestedMentionListView } from '../../chunks/bundle-BeakbtZU.js';
+import { useChannelContext } from '../context.js';
+import '../../chunks/bundle-ozUngJUV.js';
+import '../../chunks/bundle-CANWvEzj.js';
+import '../../ui/Icon.js';
+import '../../chunks/bundle-CSGqtO-d.js';
+import '../../chunks/bundle-BcxMj4cx.js';
+import '../../ui/ImageRenderer.js';
+import '../../chunks/bundle-BG2WZLhb.js';
+import '../../chunks/bundle-CoXgb0Rb.js';
+import '../../chunks/bundle-BhlLFjHF.js';
+import '../../useSendbirdStateContext.js';
+import '../../withSendbird.js';
+import '../../chunks/bundle-CF14vYFB.js';
+import '../../chunks/bundle-hr_U44Gf.js';
+import '../../chunks/bundle-GlbqlLGi.js';
+import '@sendbird/uikit-tools';
+import '../../chunks/bundle-mp0bcmQc.js';
+import '../../chunks/bundle-hVzh_gnK.js';
+import '@sendbird/chat/groupChannel';
+import '../../utils/message/getOutgoingMessageState.js';
+import '../../chunks/bundle-Dhl1ibcV.js';
+import '../../chunks/bundle-jG2aA8Xg.js';
+import '../../chunks/bundle-C4rWp9Fy.js';
+import 'react-dom';
+import '../../chunks/bundle-D3I4IOQr.js';
+import '../../ui/IconButton.js';
+import '../../ui/Button.js';
+import 'css-vars-ponyfill';
+import '@sendbird/chat';
+import '@sendbird/chat/openChannel';
+import '../../chunks/bundle-DTjvrceX.js';
+import '../../chunks/bundle-BQ7ajvH5.js';
+import '../../ui/SortByRow.js';
+import '../../chunks/bundle-Dm9F5YQ1.js';
+import '@sendbird/chat/message';
+import '../../chunks/bundle-C5rW8psz.js';
+import '../../chunks/bundle-DGIMAot8.js';
+import '../../chunks/bundle-DSUBvaRO.js';
+import '../../chunks/bundle-BCJ-Fh04.js';
+import '../../chunks/bundle-Cjuwgydf.js';
+import '../../chunks/bundle-De3kTvCq.js';
+import '../../chunks/bundle-C9y-bwLX.js';
+import '../../chunks/bundle-ClxGs08a.js';
+import '../../chunks/bundle-lXLalIBv.js';
+import '../../chunks/bundle-DZkmyY7M.js';
+
+var SuggestedMentionList = function (props) {
+    var currentGroupChannel = useChannelContext().currentGroupChannel;
+    return (React__default.createElement(SuggestedMentionListView, __assign({}, props, { currentChannel: currentGroupChannel })));
+};
+
+export { SuggestedMentionList, SuggestedMentionList as default };
+//# sourceMappingURL=SuggestedMentionList.js.map

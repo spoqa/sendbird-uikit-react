@@ -159,9 +159,12 @@ export const useGroupChannelListContext = () => {
 function getCollectionCreator(sdk: SdkStore['sdk'], channelListQueryParams?: ChannelListQueryParamsType) {
   return (defaultParams: ChannelListQueryParamsType) => {
     const params = { ...defaultParams, ...channelListQueryParams };
+    const filter = new GroupChannelFilter(params);
+    filter.setSearchFilter(['metadata_key'] as any, 'isMatching');
+    filter.setSearchFilter(['metadata_values'] as any, 'true');
     return sdk.groupChannel.createGroupChannelCollection({
       ...params,
-      filter: new GroupChannelFilter(params),
+      filter,
     });
   };
 }

@@ -1,0 +1,56 @@
+import { _ as __assign } from '../../chunks/bundle-DzrKlXwY.js';
+import React__default from 'react';
+import { G as GroupChannelHeaderView } from '../../chunks/bundle-B3wAdjsa.js';
+import { useGroupChannelContext } from '../context.js';
+import '../../ui/Icon.js';
+import '../../chunks/bundle-CSGqtO-d.js';
+import '../../ui/ChannelAvatar.js';
+import '../../chunks/bundle-BcxMj4cx.js';
+import '../../ui/ImageRenderer.js';
+import '../../chunks/bundle-BG2WZLhb.js';
+import '../../chunks/bundle-DB4au0Ge.js';
+import '../../chunks/bundle-BPh65ylY.js';
+import '../../chunks/bundle-ozUngJUV.js';
+import '../../chunks/bundle-CANWvEzj.js';
+import '../../chunks/bundle-D3I4IOQr.js';
+import '../../useSendbirdStateContext.js';
+import '../../withSendbird.js';
+import '../../chunks/bundle-CoXgb0Rb.js';
+import '../../ui/Header.js';
+import '../../ui/TextButton.js';
+import '../../chunks/bundle-CFsIxv6o.js';
+import '../../ui/IconButton.js';
+import '@sendbird/chat/message';
+import '@sendbird/chat/groupChannel';
+import '@sendbird/uikit-tools';
+import '../../chunks/bundle-GlbqlLGi.js';
+import '../../chunks/bundle-mp0bcmQc.js';
+import '../../chunks/bundle-hVzh_gnK.js';
+import '../../utils/message/getOutgoingMessageState.js';
+import '../../chunks/bundle-Dhl1ibcV.js';
+import '../../chunks/bundle-jG2aA8Xg.js';
+import '../../chunks/bundle-C4rWp9Fy.js';
+import 'react-dom';
+import '../../ui/Button.js';
+import 'css-vars-ponyfill';
+import '@sendbird/chat';
+import '../../chunks/bundle-BhlLFjHF.js';
+import '@sendbird/chat/openChannel';
+import '../../chunks/bundle-DTjvrceX.js';
+import '../../chunks/bundle-BQ7ajvH5.js';
+import '../../ui/SortByRow.js';
+import '../../chunks/bundle-ClxGs08a.js';
+import '../../chunks/bundle-lXLalIBv.js';
+import '../../chunks/bundle-DzAIhFU_.js';
+import '../../chunks/bundle-CF14vYFB.js';
+import '../../chunks/bundle-DR0mix_m.js';
+import '../../chunks/bundle-C9y-bwLX.js';
+import '../../chunks/bundle-C5rW8psz.js';
+
+var GroupChannelHeader = function (props) {
+    var context = useGroupChannelContext();
+    return (React__default.createElement(GroupChannelHeaderView, __assign({}, props, context, { currentChannel: context.currentChannel })));
+};
+
+export { GroupChannelHeader, GroupChannelHeader as default };
+//# sourceMappingURL=GroupChannelHeader.js.map
